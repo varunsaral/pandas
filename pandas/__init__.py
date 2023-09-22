@@ -149,7 +149,6 @@ from pandas.io.api import (
     read_fwf,
     read_table,
     # pickle
-    read_pickle,
     to_pickle,
     # pytables
     HDFStore,
@@ -340,7 +339,6 @@ __all__ = [
     "read_json",
     "read_orc",
     "read_parquet",
-    "read_pickle",
     "read_sas",
     "read_spss",
     "read_sql",

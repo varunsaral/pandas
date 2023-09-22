@@ -20,8 +20,7 @@ from pandas.io.parsers import (
     read_table,
 )
 from pandas.io.pickle import (
-    read_pickle,
-    to_pickle,
+     to_pickle,
 )
 from pandas.io.pytables import (
     HDFStore,
@@ -52,7 +51,6 @@ __all__ = [
     "read_json",
     "read_orc",
     "read_parquet",
-    "read_pickle",
     "read_sas",
     "read_spss",
     "read_sql",
